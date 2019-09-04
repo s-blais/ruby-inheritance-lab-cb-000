@@ -23,4 +23,15 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Jones"
 
-jim.learn(some_knowledge)
+steve.learn(some_knowledge)
+
+fang = Student.new
+fang.first_name = "Fang"
+fang.last_name = "Blais"
+
+fang.learn(some_knowledge)
+fang.learn(some_knowledge)
+
+Student.all.each {|student| student.knowledge}
+
+
