@@ -17,4 +17,8 @@ class Student < User
     @knowledge
   end
 
+  def self.all
+    @@all
+  end
+
 end
