@@ -23,5 +23,6 @@ class Student < User
 
   def all_student_knowledge
     self.all.each {|student| student.knowledge}
+  end
 
 end
