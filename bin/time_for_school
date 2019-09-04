@@ -33,5 +33,3 @@ fang.learn(some_knowledge)
 fang.learn(some_knowledge)
 
 Student.all.each {|student| student.knowledge}
-
-
