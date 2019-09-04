@@ -32,4 +32,4 @@ fang.last_name = "Blais"
 fang.learn(some_knowledge)
 fang.learn(some_knowledge)
 
-Student.all_student_knowledge
+all_student_knowledge
