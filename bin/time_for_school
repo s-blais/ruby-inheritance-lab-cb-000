@@ -14,8 +14,10 @@ avi.last_name = "Flombaum"
 
 
 some_knowledge = avi.teach
+more_knowledge = avi.teach
 
 steve.learn(some_knowledge)
+steve.learn(more_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
@@ -23,13 +25,11 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Jones"
 
-steve.learn(some_knowledge)
-
 fang = Student.new
 fang.first_name = "Fang"
 fang.last_name = "Blais"
 
 fang.learn(some_knowledge)
-fang.learn(some_knowledge)
+fang.learn(more_knowledge)
 
 Student.all_student_knowledge
