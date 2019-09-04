@@ -22,7 +22,7 @@ class Student < User
   end
 
   def self.all_student_knowledge
-    all.each {|student| student.knowledge}
+    self.all.each {|student| puts student.knowledge}
   end
 
 end
