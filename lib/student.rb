@@ -21,4 +21,7 @@ class Student < User
     @@all
   end
 
+  def all_student_knowledge
+    self.all.each {|student| student.knowledge}
+
 end
